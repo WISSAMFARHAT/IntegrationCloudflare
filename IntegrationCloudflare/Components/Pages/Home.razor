@@ -1,0 +1,58 @@
+﻿@page "/"
+@using System.Net.Http.Headers
+@using CloudFlare.Client
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<button @onclick="NugetButton">click</button>
+
+@code {
+
+    private static readonly HttpClient client = new HttpClient();
+
+    async Task Button()
+    {
+        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "Sbu9HlsnyOVB2T-_V2TpZnBTF-2pIabIOhr3jbwm");
+
+        var response = await client.GetAsync("https://api.cloudflare.com/client/v4/zones/5de68882296948620259abedd60edd9c");
+        var responseString = await response.Content.ReadAsStringAsync();
+
+        Console.WriteLine(responseString);
+    }
+
+
+    async Task NugetButton()
+    {
+        try
+        {
+            var email = "farhat-wissam@outlook.com";
+            var apiKey = "54284b1396e641257e045594212438bf10aa7";
+            using var client = new CloudFlareClient(email, apiKey);
+
+            var cancellationToken = new CancellationToken();
+            var zones = await client.Zones.GetAsync(cancellationToken: cancellationToken);
+
+            foreach (var zone in zones.Result)
+            {
+                // Get current SSL settings
+                var sslSettings = await client.Zones.Settings.GetSslSettingAsync(zone.Id, cancellationToken: cancellationToken);
+
+                var updatedSslSettings = await client.Zones.Settings.UpdateSslSettingAsync(zone.Id,CloudFlare.Client.Enumerators.SslSetting.Full, cancellationToken: cancellationToken);
+
+                var dnsRecords = await client.Zones.DnsRecords.GetAsync(zone.Id, cancellationToken: cancellationToken);
+                foreach (var dnsRecord in dnsRecords.Result)
+                {
+                    Console.WriteLine(dnsRecord.Name);
+                }
+
+                Console.WriteLine(zone.Name);
+            }
+
+        }
+        catch (Exception ex)
+        {
+        }
+
+    }
+}

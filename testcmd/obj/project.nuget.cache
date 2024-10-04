@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "uaI6CHZL68Q=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\testcmd\\testcmd.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\farha\\.nuget\\packages\\envdte\\17.11.40262\\envdte.17.11.40262.nupkg.sha512",
+    "C:\\Users\\farha\\.nuget\\packages\\envdte80\\17.11.40262\\envdte80.17.11.40262.nupkg.sha512",
+    "C:\\Users\\farha\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\8.0.5\\microsoft.aspnetcore.components.webassembly.server.8.0.5.nupkg.sha512",
+    "C:\\Users\\farha\\.nuget\\packages\\microsoft.visualstudio.interop\\17.11.40262\\microsoft.visualstudio.interop.17.11.40262.nupkg.sha512",
+    "C:\\Users\\farha\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\17.11.40262\\microsoft.visualstudio.ole.interop.17.11.40262.nupkg.sha512",
+    "C:\\Users\\farha\\.nuget\\packages\\microsoft.visualstudio.shell.interop\\17.11.40262\\microsoft.visualstudio.shell.interop.17.11.40262.nupkg.sha512"
+  ],
+  "logs": []
+}

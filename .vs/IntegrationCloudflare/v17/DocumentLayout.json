@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E040723B-D689-4933-ACEA-B3186FAF0818}|IntegrationCloudflare\\IntegrationCloudflare.csproj|c:\\users\\farha\\source\\repos\\integrationcloudflare\\integrationcloudflare\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E040723B-D689-4933-ACEA-B3186FAF0818}|IntegrationCloudflare\\IntegrationCloudflare.csproj|solutionrelative:integrationcloudflare\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\farha\\AppData\\Local\\Temp\\.vsdbgsrc\\4dcf567db33b8407e8e7e85491df71d46c06985d33f5ad8d904e52c3b325c6c5\\ExecutionContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E040723B-D689-4933-ACEA-B3186FAF0818}|IntegrationCloudflare\\IntegrationCloudflare.csproj|c:\\users\\farha\\source\\repos\\integrationcloudflare\\integrationcloudflare\\integrationcloudflare.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E040723B-D689-4933-ACEA-B3186FAF0818}|IntegrationCloudflare\\IntegrationCloudflare.csproj|solutionrelative:integrationcloudflare\\integrationcloudflare.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExecutionContext.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\AppData\\Local\\Temp\\.vsdbgsrc\\4dcf567db33b8407e8e7e85491df71d46c06985d33f5ad8d904e52c3b325c6c5\\ExecutionContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4dcf567db33b8407e8e7e85491df71d46c06985d33f5ad8d904e52c3b325c6c5\\ExecutionContext.cs",
+              "ToolTip": "C:\\Users\\farha\\AppData\\Local\\Temp\\.vsdbgsrc\\4dcf567db33b8407e8e7e85491df71d46c06985d33f5ad8d904e52c3b325c6c5\\ExecutionContext.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4dcf567db33b8407e8e7e85491df71d46c06985d33f5ad8d904e52c3b325c6c5\\ExecutionContext.cs [Read Only]",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAYwIkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:01:05.951Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IntegrationCloudflare.csproj",
+              "DocumentMoniker": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\IntegrationCloudflare\\IntegrationCloudflare.csproj",
+              "RelativeDocumentMoniker": "IntegrationCloudflare\\IntegrationCloudflare.csproj",
+              "ToolTip": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\IntegrationCloudflare\\IntegrationCloudflare.csproj",
+              "RelativeToolTip": "IntegrationCloudflare\\IntegrationCloudflare.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-12T12:24:41.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\IntegrationCloudflare\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "IntegrationCloudflare\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\IntegrationCloudflare\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "IntegrationCloudflare\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwCMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T08:37:10.78Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

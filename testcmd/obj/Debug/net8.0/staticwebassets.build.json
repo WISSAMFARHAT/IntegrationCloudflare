@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "MAc6MfB82hwbfVZKiJLixsR6lso34DfKtKZ9r5Go8CM=",
+  "Source": "testcmd",
+  "BasePath": "_content/testcmd",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "testcmd\\wwwroot",
+      "Source": "testcmd",
+      "ContentRoot": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\testcmd\\testcmd\\wwwroot\\",
+      "BasePath": "_content/testcmd",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\testcmd\\testcmd\\obj\\Debug\\net8.0\\scopedcss\\bundle\\testcmd.styles.css",
+      "SourceId": "testcmd",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\testcmd\\testcmd\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/testcmd",
+      "RelativePath": "testcmd.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\testcmd\\testcmd\\obj\\Debug\\net8.0\\scopedcss\\bundle\\testcmd.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\testcmd\\testcmd\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\testcmd.bundle.scp.css",
+      "SourceId": "testcmd",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\testcmd\\testcmd\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/testcmd",
+      "RelativePath": "testcmd.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\testcmd\\testcmd\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\testcmd.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\testcmd\\testcmd\\wwwroot\\app.css",
+      "SourceId": "testcmd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\farha\\source\\repos\\IntegrationCloudflare\\testcmd\\testcmd\\wwwroot\\",
+      "BasePath": "_content/testcmd",
+      "RelativePath": "app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    }
+  ]
+}

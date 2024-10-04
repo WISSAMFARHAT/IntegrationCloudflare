@@ -1,0 +1,47 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@inject ProjectService ProjectService
+@inject FileService FileService
+@inject NavigationManager NavigationManager
+
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Home</PageTitle>
+
+
+<h3>Welcome to AME.Website</h3>
+
+<button @onclick="AddTemplateProject">Add Template Project</button>
+
+@code {
+
+
+    private async Task AddTemplateProject()
+    {
+        string templateName = "blazorserver";
+        string solutionDir = Directory.GetParent(Directory.GetCurrentDirectory()).FullName;
+        string destinationPath = Path.Combine(solutionDir, "TempProject");
+        string zipPath = Path.Combine(solutionDir, "Project.zip");
+
+        try
+        {
+            string projectPath = ProjectService.CreateProject(templateName, destinationPath);
+            string zipFilePath = ProjectService.ZipProject(projectPath, zipPath);
+
+            // Trigger the download
+            await TriggerDownload(zipFilePath);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
+
+    private async Task TriggerDownload(string filePath)
+    {
+        var uri = new Uri(NavigationManager.BaseUri + $"api/file/download?filePath={Uri.EscapeDataString(filePath)}");
+        await JSRuntime.InvokeVoidAsync("triggerFileDownload", uri.ToString());
+    }
+
+
+}
